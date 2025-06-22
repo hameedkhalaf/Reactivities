@@ -11,7 +11,7 @@ Once you have these then you can do the following:
 
 ```bash
 # you will of course need git installed to run this
-git clone https://github.com/TryCatchLearn/Reactivities.git
+git clone https://github.com/hameedkhalaf/Reactivities.git
 cd Reactivities
 ```
 2. Checkout a version of the project that uses Sqlite and does not require email confirmation:
