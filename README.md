@@ -13,12 +13,9 @@ Once you have these then you can do the following:
 # you will of course need git installed to run this
 git clone https://github.com/hameedkhalaf/Reactivities.git
 cd Reactivities
+
 ```
-2. Checkout a version of the project that uses Sqlite and does not require email confirmation:
-```bash
-git checkout 684e26a
-```
-3. Restore the packages by running:
+2. Restore the packages by running:
 
 ```bash
 # From the solution folder (Reactivities)
@@ -30,7 +27,7 @@ cd client
 npm install
 ```
 
-4. If you wish for the photo upload to work create a file called appsettings.json in the Reactivities/API folder and copy/paste the following configuration.
+3. If you wish for the photo upload to work create a file called appsettings.json in the Reactivities/API folder and copy/paste the following configuration.
 
 ```json
 {
@@ -48,9 +45,9 @@ npm install
   "AllowedHosts": "*"
 }
 ```
-5. Create an account (free of charge, no credit card required) at https://cloudinary.com and then replace the Cloudinary keys in the appsettings.json file with your own cloudinary keys.
+4. Create an account (free of charge, no credit card required) at https://cloudinary.com and then replace the Cloudinary keys in the appsettings.json file with your own cloudinary keys.
 
-6. You can then run the app and browse to it locally by running:
+5. You can then run the app and browse to it locally by running:
 
 ```bash
 # run this from the API folder in one terminal/command prompt
@@ -63,7 +60,7 @@ npm run dev
 
 ```
 
-7. You can then browse to the app on https://localhost:3000 and login with either of the test users:
+6. You can then browse to the app on https://localhost:3000 and login with either of the test users:
 
     email: bob@test.com or tom@test.com or jane@test.com
     
